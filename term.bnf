@@ -1,0 +1,10 @@
+
+
+                       term  ::=  "zero"
+
+                               |  "successor"<NO_WHITESPACE>"(" argument ")"
+
+                               |  "predecessor"<NO_WHITESPACE>"(" argument ")"
+
+                               ;
+
