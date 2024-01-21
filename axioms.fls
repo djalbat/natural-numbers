@@ -1,0 +1,8 @@
+Variable n:ℕ
+Variable m:ℕ\{0}
+
+Axiom (SuccessorsOfPredecessors)
+  successor(predecessor(m)) = m
+
+Axiom (PredecessorsOfSuccessors)
+  predecessor(successor(n)) = n
