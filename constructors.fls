@@ -1,2 +1,2 @@
-Constructor successor(ℕ):ℕ
+Constructor successor(ℕ):ℕ\{0}
 Constructor predecessor(ℕ\{0}):ℕ
