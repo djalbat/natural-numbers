@@ -1,7 +1,7 @@
 {
-  "version": "2.1.1",
+  "version": "0.0.0",
   "repository": "https://github.com/djalbat/natural-numbers",
   "dependencies": {
-    "numbers": "5.0"
+    "numbers": "0.0"
   }
 }
