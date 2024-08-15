@@ -6,3 +6,8 @@ Axiom (SuccessorsOfPredecessors)
 
 Axiom (PredecessorsOfSuccessors)
   predecessor(successor(n)) = n
+
+Variable k:ℕ
+
+Axiom (ZeroOrSuccessor)
+  n = zero ∨ n = successor(k)
