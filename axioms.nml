@@ -11,3 +11,9 @@ Variable k:ℕ
 
 Axiom (ZeroOrSuccessor)
   n = zero ∨ n = successor(k)
+
+Axiom (NonZeroNaturalNumberInfersNotZero)
+  Suppose
+    n:ℕ\{0}
+  Then
+    n ≠ zero
