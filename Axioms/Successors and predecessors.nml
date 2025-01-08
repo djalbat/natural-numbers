@@ -1,19 +1,13 @@
 Variable n:ℕ
 Variable m:ℕ\{0}
 
-Axiom (SuccessorsOfPredecessors)
+Axiom (NaturalNumberSuccessorsOfPredecessors)
   successor(predecessor(m)) = m
 
-Axiom (PredecessorsOfSuccessors)
+Axiom (NaturalNumberPredecessorsOfSuccessors)
   predecessor(successor(n)) = n
 
 Variable k:ℕ
 
 Axiom (ZeroOrSuccessor)
   n = zero ∨ n = successor(k)
-
-Axiom (NonZeroNaturalNumberInfersNotZero)
-  Suppose
-    n:ℕ\{0}
-  Then
-    n ≠ zero
