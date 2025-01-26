@@ -1,9 +1,9 @@
 {
-  "version": "1.0.1",
+  "version": "1.1.0",
   "repository": "https://github.com/djalbat/natural-numbers",
   "dependencies": {
     "minimal-propositional-logic": "3.0",
-    "equality": "2.0",
+    "equality": "3.1",
     "integers": "2.0",
     "numbers": "1.0"
   }
