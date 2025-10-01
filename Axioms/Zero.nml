@@ -4,4 +4,4 @@ Axiom (NonZeroNaturalNumberInfersNotZero)
   Suppose
     n:ℕ\{0}
   Then
-    n ≠ zero
+    n ≠ 𝘻𝘦𝘳𝘰
