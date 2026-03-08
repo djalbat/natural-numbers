@@ -1,3 +1,4 @@
+Variable k:ℕ
 Variable n:ℕ
 Variable m:ℕ\{0}
 
@@ -6,8 +7,6 @@ Axiom (NaturalNumberSuccessorsOfPredecessors)
 
 Axiom (NaturalNumberPredecessorsOfSuccessors)
   𝘱𝘳𝘦𝘥𝘦𝘤𝘦𝘴𝘴𝘰𝘳(𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(n)) = n
-
-Variable k:ℕ
 
 Axiom (ZeroOrSuccessor)
   n = 𝘻𝘦𝘳𝘰 ∨ n = 𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k)
