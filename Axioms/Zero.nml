@@ -1,7 +1,0 @@
-Variable n
-
-Axiom (NonZeroNaturalNumberInfersNotZero)
-  Suppose
-    n:ℕ\{0}
-  Then
-    n ≠ 𝘻𝘦𝘳𝘰

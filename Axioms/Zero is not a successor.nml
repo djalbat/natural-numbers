@@ -1,0 +1,14 @@
+Variable n:ℕ
+Variable k:ℕ
+
+Metavariable Q(ℕ):Statement
+
+Axiom (ZeroAndSuccessorsAreDisjoint)
+  ¬(𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(n) = 𝘻𝘦𝘳𝘰)
+
+Axiom (ZeroAndSuccessorsAreExhaustive)
+  Suppose
+    Q(𝘻𝘦𝘳𝘰)
+    Q(𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k))
+  Then
+    Q(n)
