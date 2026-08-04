@@ -1,0 +1,11 @@
+Variable n:ℕ
+Variable k:ℕ
+
+Metavariable Q(ℕ):Statement
+
+Axiom (NaturalNumbersInitiality)
+  Suppose
+    Q(𝘻𝘦𝘳𝘰)
+    Q(𝘴𝘶𝘤𝘤𝘦𝘴𝘴𝘰𝘳(k))
+  Then
+    Q(n)
